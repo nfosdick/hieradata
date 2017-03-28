@@ -1,0 +1,7 @@
+r10k::sources:
+ puppet:
+   basedir: /etc/puppetlabs/code/environments
+   remote: git@github.com:nfosdick/control.git 
+ hieradata:
+   basedir: /etc/puppetlabs/code/hieradata
+   remote: git@github.com:nfosdick/hieradata.git
