@@ -5,3 +5,9 @@ r10k::sources:
  hieradata:
    basedir: /etc/puppetlabs/code/hieradata
    remote: git@github.com:nfosdick/hieradata.git
+
+certs::cname:
+  - puppet.aws.sigfig.us
+  - puppet
+  - puppet1.aws.sigfig.us
+
